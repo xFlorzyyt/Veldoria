@@ -6,7 +6,7 @@ const UnkownPage = () => {
         'Yanlış adres girdin dostum geri don'
     ];
 
-    return <ErrorPage code={HATA} message={messages[Math.floor(Math.random()*messages.length)] || "Sayfa bulunamadi."} />
+    return <ErrorPage code={404} message={messages[Math.floor(Math.random()*messages.length)] || "Sayfa bulunamadi."} />
 }
 
 export default UnkownPage;
