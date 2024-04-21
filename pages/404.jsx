@@ -3,7 +3,7 @@ const UnkownPage = () => {
     let messages = [
         'Dostum yolunumu kaybettin',
         'yolun sonuna geldin bilader',
-        'Yanlış adres girdin dostum geri don'
+        'Yanlış adres girdin dostum geri don',
     ];
 
     return <ErrorPage code={404} message={messages[Math.floor(Math.random()*messages.length)] || "Sayfa bulunamadi."} />
